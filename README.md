@@ -1,7 +1,9 @@
 Contact Management System
-A lightweight, console-based Contact Management System written in C++ (C++17) featuring persistent text file storage, robust data validation, and case-insensitive search capabilities.
 ---
+A lightweight, console-based Contact Management System written in C++ (C++17) featuring persistent text file storage, robust data validation, and case-insensitive search capabilities.
+
 Features
+---
 Add Contact: Validates inputs, formats phone numbers (7–15 digits), and prevents duplicate entries.
 View All: Displays formatted contact cards along with a total count.
 Search: Case-insensitive substring search across names and phone numbers.
@@ -9,7 +11,7 @@ Update: Edit existing details with validation and state rollback on file save fa
 Delete: Safe removal with confirmation prompts.
 Sort: Alphabetical ordering by name using standard library algorithms.
 File Persistence: Automatic read/write to `contacts.txt` using pipe-delimited format (`|`).
----
+
 Project Structure
 ```text
 .
