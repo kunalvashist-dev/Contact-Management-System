@@ -13,6 +13,7 @@ Sort: Alphabetical ordering by name using standard library algorithms.
 File Persistence: Automatic read/write to `contacts.txt` using pipe-delimited format (`|`).
 
 Project Structure
+---
 ```text
 .
 ├── ContactManagementSystem.cpp   # Main application source code
